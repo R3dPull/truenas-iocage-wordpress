@@ -144,14 +144,14 @@ print_msg "Jail Creation. Time for a cuppa. Installing packages will take a whil
 
 cat <<__EOF__ >/tmp/pkg.json
 {
-  "pkgs":[
-  "php74","php74-curl","php74-dom","php74-exif","php74-fileinfo","php74-json","php74-mbstring",
-  "php74-mysqli","php74-pecl-libsodium","php74-openssl","php74-pecl-imagick","php74-xml","php74-zip",
-  "php74-filter","php74-gd","php74-iconv","php74-pecl-mcrypt","php74-simplexml","php74-xmlreader","php74-zlib",
-  "php74-ftp","php74-pecl-ssh2","php74-sockets",
-  "mariadb105-server","unix2dos","ssmtp","phpmyadmin5-php74",
-  "php74-xmlrpc","php74-ctype","php74-session","php74-xmlwriter",
-  "redis","php74-pecl-redis","php74-phar","caddy"
+  "pkgs":[  
+  "php81","php81-curl","php81-dom","php81-exif","php81-fileinfo","php81-mbstring",
+  "php81-mysqli","php81-pecl-libsodium","php81-pecl-imagick","php81-xml","php81-zip",
+  "php81-filter","php81-gd","php81-iconv","php81-pecl-mcrypt","php81-simplexml","php81-xmlreader","php81-zlib",
+  "php81-ftp","php81-pecl-ssh2","php81-sockets",
+  "mariadb106-server","unix2dos","ssmtp","phpmyadmin5-php81",
+  "php81-xmlrpc","php81-ctype","php81-session","php81-xmlwriter",
+  "redis","php81-pecl-redis","php81-phar","caddy"
   ]
 }
 __EOF__
